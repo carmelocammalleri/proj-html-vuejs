@@ -10,6 +10,6 @@
   </header>
 </template>
 
-<style>
-
+<style lang="scss">
+  @use '../scss/header.scss';
 </style>
