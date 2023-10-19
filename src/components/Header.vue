@@ -6,6 +6,7 @@
 
 <template>
   <header>
+    <!-- newsUpdate -->
     <div class="newsUpdate">
       <div class="containerHead container d-flex justify-content-between">
         <div class="d-flex align-items-center">
@@ -26,16 +27,19 @@
         </div>
       </div>
     </div>
-
+    <!-- /newsUpdate -->
+    
+    <!-- bannersection -->
     <section class="banner container d-flex justify-content-between align-items-center ">
       <div class="containerBanner">
         <img id="logo" src="/public/image/anime-logo-300x89.webp" alt="logo-red">
       </div>
-
+      
       <div >
         <img class="bannerImage" src="/public/image/header-banner.webp" alt="banner">
       </div>
     </section>
+    <!-- /bannersection -->
 
   </header>
 </template>
