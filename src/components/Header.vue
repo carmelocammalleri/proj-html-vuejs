@@ -5,7 +5,9 @@
 </script>
 
 <template>
-  <div>ciao header</div>
+  <header>
+    ciao header
+  </header>
 </template>
 
 <style>
