@@ -1,6 +1,11 @@
 <script>
+  import NavBar from '../components/partials/NavBar.vue'
+
   export default {
-    name: 'Header'
+    name: 'Header',
+    components:{
+      NavBar 
+    }
   }
 </script>
 
@@ -40,6 +45,8 @@
       </div>
     </section>
     <!-- /bannersection -->
+
+    <NavBar/>
 
   </header>
 </template>

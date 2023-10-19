@@ -1,0 +1,18 @@
+@use '../partials/variables' as *;
+
+.containerNav{
+  color: $elementColor;
+  border-block: 1px solid $bgColor;
+  padding: 10px;
+
+  .menuHeader {
+    ul{
+      margin: 0;
+      li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+      }
+    }
+  }
+}
