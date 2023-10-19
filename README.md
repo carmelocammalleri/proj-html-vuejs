@@ -1,6 +1,5 @@
 # AnimeTech
- proj-html-vuejs
- 
+ proj-html-vuejs 
 
 ### Info base
 Sviluppo di una pagina web a tema anime, con tanti consigli personalizzati a seconda della richiesta e della ricerca personale. 
