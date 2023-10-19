@@ -13,7 +13,7 @@
         <div class="cardMenuInfo">
           <h5 class="titleMenu">ciao</h5>
           <ul class="menuInfo">
-            <li>Stories</li>
+            <li>Resource</li>
             <li>Themes</li>
             <li>Belli</li>
             <li>Ciao</li>
