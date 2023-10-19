@@ -34,11 +34,16 @@ Il progetto sarà diviso in tre macrosezioni header, main e footer organizzati i
    - card immagini con info text   
 6. Section product 
 
-### footer
+### Footer
 1. Menu info imput text
 2. Section logo footer 
    - logo e scritte aziendali 
 
 
 #### Come impostare il lavoro
-1.   
+1. Impostare struttura generale della pagina web e identificare gli elementi ripetuti
+2. Creazione array ad oggetti con gli elementi che si ripetono in modo tale da avere una visualizzazione dinamica
+3. Stampare i singoli elementi degli array nelle card per vedere il risultato ottenuto
+4. Creare i singoli pezzi della struttura passo passo
+5. Inserire i pezzi creati nella struttura generale
+6. Dare lo stile al tutto 
