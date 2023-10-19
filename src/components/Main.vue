@@ -5,7 +5,9 @@
 </script>
 
 <template>
-  <div>ciao main</div>
+  <main>
+    ciao main
+  </main>
 </template>
 
 <style>

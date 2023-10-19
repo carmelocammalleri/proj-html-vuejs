@@ -5,9 +5,11 @@
 </script>
 
 <template>
-  <div>ciao footer</div>
+  <footer>
+    ciao footer
+  </footer>
 </template>
 
-<style>
-
+<style lang="scss">
+  @use '../scss/footer.scss';
 </style>
