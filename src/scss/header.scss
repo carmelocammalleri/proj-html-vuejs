@@ -2,4 +2,23 @@
 
 header {
   background-color: $primaryColor;
+  color: $lightColor;
+
+  .newUpdate{
+    height: 50px;
+    width: 100%;
+
+    .profileButton{
+      height: 50px;
+      background-color: $elementColor;
+      
+      .buttonUpdates {
+        padding: 0 10px;
+      }
+
+      .profileImage {
+        height: 100%;
+      }
+    }
+  }
 }
