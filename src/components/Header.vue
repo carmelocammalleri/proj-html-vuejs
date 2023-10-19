@@ -23,9 +23,11 @@
           icone
         </div>
       </div>
-
-
     </div>
+
+    <section class="banner">
+      <img src="/public/image/anime-whitelogo-300x89.png" alt="">
+    </section>
   </header>
 </template>
 
