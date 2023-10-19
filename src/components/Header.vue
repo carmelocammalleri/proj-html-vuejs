@@ -6,7 +6,26 @@
 
 <template>
   <header>
-    ciao header
+    <div class="newUpdate container d-flex justify-content-between">
+      <div class="d-flex align-items-center">
+        <div class="profileButton">
+          <span class="buttonUpdates">NEWS UPDATES</span>
+          <img class="profileImage" src="/image/ProfiloImage.jpg" alt="profilo">
+        </div>
+        <span> 05:52 the_</span>
+      </div>
+
+      <div class="socialHeader d-flex align-items-center">
+        <div class="iconeArrow">
+          &leftarrow; &rightarrow;
+        </div>
+        <div class="iconeSocial">
+          icone
+        </div>
+      </div>
+
+
+    </div>
   </header>
 </template>
 
