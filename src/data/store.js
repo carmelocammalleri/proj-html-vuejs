@@ -7,33 +7,33 @@ export const cardsList= [
     },
     {id: 153,
     src: '/winter.webp',
-    title: 'The best healty food',
+    title: 'The best winter outfit',
     date: 'december 2022',
     btn: 'food'
     },
     {id: 156,
     src: '/photographers-mistakes.webp',
-    title: 'The best healty food',
+    title: 'Biginner photographer\'s Mistakes',
     date: 'december 2022',
     btn: 'food'
     },
     {id: 158,
     src: '/rice-ball.webp',
-    title: 'The best healty food',
+    title: 'Live Ideas You Might Be Anime',
     date: 'december 2022',
     btn: 'food'
     }
     ,
     {id: 158,
-    src: '/rice-ball.webp',
-    title: 'The best healty food',
+    src: '/anime-fashion.webp',
+    title: 'The best Way To Explore Yourself',
     date: 'december 2022',
     btn: 'food'
     }
     ,
     {id: 158,
-    src: '/rice-ball.webp',
-    title: 'The best healty food',
+    src: '/best-places.webp',
+    title: 'Nothing Else Metter',
     date: 'december 2022',
     btn: 'food'
     }
