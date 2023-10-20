@@ -1,11 +1,14 @@
 <script>
 import CardSlider from './partials/CardSlider.vue'
 import CardGallery from './partials/CardGallery.vue'
+import LifeStyle from './partials/lifeStyle.vue'
+
   export default{
     name: 'Main',
     components:{
       CardSlider,
-      CardGallery
+      CardGallery,
+      LifeStyle
     }
   }
 </script>
@@ -21,7 +24,7 @@ import CardGallery from './partials/CardGallery.vue'
     <!-- photo gallery -->
 
     <!-- lifestyle and stories -->
-      
+      <LifeStyle/>
     <!-- lifestyle and stories -->
 
     <!-- banner -->

@@ -1,0 +1,26 @@
+@use './variables' as *;
+
+.lifeStyle{
+  background-color: $lightColor;
+
+  .presentation {
+    height: 100%;
+
+    .presentationPhotos{
+      width: 60%;
+      margin-right: 8px;
+    }
+
+    .listPhotos {
+      width: 40%;
+
+      .foto{
+        height: 100px;
+
+        &.middle {
+          margin: 8px 0;
+        }
+      }
+    }
+  }
+}
