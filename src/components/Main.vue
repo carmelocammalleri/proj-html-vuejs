@@ -5,6 +5,7 @@ import LifeStyle from './partials/lifeStyle.vue';
 import FeaturedPosts from './partials/FeaturedPosts.vue';
 import YoutubeSection from './partials/YoutubeSection.vue';
 import ItemSection from './partials/ItemSection.vue';
+ 
 
   export default{
     name: 'Main',
@@ -14,7 +15,7 @@ import ItemSection from './partials/ItemSection.vue';
       LifeStyle,
       FeaturedPosts,
       YoutubeSection,
-      ItemSection
+      ItemSection,
     }
   }
 </script>
