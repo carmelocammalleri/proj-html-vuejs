@@ -3,8 +3,10 @@
 .slider {
   background-color: $bgColor;
   padding: 10px 0;
+
   .card {
     width: 100%;
+    background-color: $bgColor;
 
     .card-img-top{
       width: 100%;

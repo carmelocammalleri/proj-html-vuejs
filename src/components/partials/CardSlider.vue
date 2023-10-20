@@ -29,6 +29,7 @@ import { Navigation, Mousewheel, Keyboard } from 'swiper/modules';
 <template>
   <section class="slider">
     <Swiper :slidesPerView="4"
+      :spaceBetween="8"
       :navigation="true"
       :centeredSlides="false"
       :modules="modules"

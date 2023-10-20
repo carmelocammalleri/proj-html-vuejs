@@ -32,6 +32,7 @@ import { Navigation, Mousewheel, Keyboard } from 'swiper/modules';
         <div class="cardSection">
 
             <Swiper :slidesPerView="3"
+                  :spaceBetween="8"
                   :navigation="true"
                   :centeredSlides="false"
                   :modules="modules"
