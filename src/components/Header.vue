@@ -41,7 +41,7 @@
       </div>
       
       <div >
-        <img class="bannerImage" src="/public/image/header-banner.webp" alt="banner">
+        <img class="bannerImage" src="/public/image/header-banner-300x38.webp" alt="banner">
       </div>
     </section>
     <!-- /bannersection -->

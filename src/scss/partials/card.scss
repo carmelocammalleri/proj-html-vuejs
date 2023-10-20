@@ -1,5 +1,7 @@
-.card {
+@use './variables' as *;
 
+.slider {
+  background-color: $bgColor;
   .card-body {
     padding: 5px;
 
