@@ -23,4 +23,18 @@ export const cardsList= [
     date: 'december 2022',
     btn: 'food'
     }
+    ,
+    {id: 158,
+    src: '/rice-ball.webp',
+    title: 'The best healty food',
+    date: 'december 2022',
+    btn: 'food'
+    }
+    ,
+    {id: 158,
+    src: '/rice-ball.webp',
+    title: 'The best healty food',
+    date: 'december 2022',
+    btn: 'food'
+    }
   ]

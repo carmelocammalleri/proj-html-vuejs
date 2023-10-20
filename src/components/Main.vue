@@ -1,9 +1,10 @@
 <script>
-import CardSlider from './partials/CardSlider.vue'
-import CardGallery from './partials/CardGallery.vue'
-import LifeStyle from './partials/lifeStyle.vue'
-import FeaturedPosts from './partials/FeaturedPosts.vue'
-import YoutubeSection from './partials/YoutubeSection.vue'
+import CardSlider from './partials/CardSlider.vue';
+import CardGallery from './partials/CardGallery.vue';
+import LifeStyle from './partials/lifeStyle.vue';
+import FeaturedPosts from './partials/FeaturedPosts.vue';
+import YoutubeSection from './partials/YoutubeSection.vue';
+import ItemSection from './partials/ItemSection.vue';
 
   export default{
     name: 'Main',
@@ -12,7 +13,8 @@ import YoutubeSection from './partials/YoutubeSection.vue'
       CardGallery,
       LifeStyle,
       FeaturedPosts,
-      YoutubeSection
+      YoutubeSection,
+      ItemSection
     }
   }
 </script>
@@ -49,7 +51,7 @@ import YoutubeSection from './partials/YoutubeSection.vue'
     <!-- youtube -->
 
     <!-- elementi e foto -->
-    
+      <ItemSection/>
     <!-- elementi e foto -->
   </main>
 </template>

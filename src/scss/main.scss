@@ -10,5 +10,9 @@
 
   main {
     background-color: $lightColor;
+
+    .container {
+      max-width: 800px;
+    }
   }
 }

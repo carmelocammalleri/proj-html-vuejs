@@ -3,6 +3,10 @@
 header {
   color: $lightColor;
   
+  .container {
+    max-width: 800px;
+  }
+  
   .newsUpdate{
     background-color: $primaryColor;
 
