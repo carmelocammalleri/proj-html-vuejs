@@ -1,10 +1,10 @@
 <script>
-import Card from './partials/Card.vue'
+import CardSlider from './partials/Card.vue'
 
   export default{
     name: 'Main',
     components:{
-      Card
+      CardSlider
     }
   }
 </script>
@@ -12,9 +12,7 @@ import Card from './partials/Card.vue'
 <template>
   <main>
     <!-- slider -->
-    <section class="slider d-flex justify-content-between p-3 ">
-      <Card/>
-    </section>
+      <CardSlider/>
     <!-- slider -->
 
     <!-- photo gallery -->
