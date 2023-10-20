@@ -1,7 +1,11 @@
 <script>
 import {cardsList} from '../../data/store';
 import {Swiper, SwiperSlide} from 'swiper/vue';
+import 'swiper/css/navigation';
 import 'swiper/css';
+
+// inserisci le freccette
+import { Navigation, Mousewheel, Keyboard } from 'swiper/modules';
 
   export default{
     name: 'CardSlider',
@@ -13,6 +17,11 @@ import 'swiper/css';
       return {
         cardsList
       }
+    },
+    setup() {
+      return {
+        modules: [Navigation, Mousewheel, Keyboard]
+      };
     }
   }
 </script>

@@ -4,19 +4,23 @@
   background-color: $bgColor;
   padding: 10px 0;
   .card {
+    width: 100%;
 
     .card-img-top{
       width: 100%;
     }
 
     .card-body {
-      padding: 5px;
+      padding: 7px;
       
       .card-title {
         margin: 0;
+        font-size: .8rem;
       }
       .card-text {
-        color: #6E6E6E;
+        color: #525252;
+        font-size: .7rem;
+        margin: 0;
       }
     }
   }
