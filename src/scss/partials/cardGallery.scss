@@ -1,0 +1,22 @@
+@use './variables' as *;
+
+.photoGallery {
+  background-color: $lightColor;
+  height: 100%;
+
+  .middle {
+    width: 50%;
+    margin: 0px 8px;
+
+    .uno {
+      height: 100%;
+    }
+  }
+  .left {
+    width: 25%;
+    
+    .due {
+      height: 150px;
+    }
+  }
+}

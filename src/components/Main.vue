@@ -1,10 +1,11 @@
 <script>
-import CardSlider from './partials/Card.vue'
-
+import CardSlider from './partials/CardSlider.vue'
+import CardGallery from './partials/CardGallery.vue'
   export default{
     name: 'Main',
     components:{
-      CardSlider
+      CardSlider,
+      CardGallery
     }
   }
 </script>
@@ -16,11 +17,11 @@ import CardSlider from './partials/Card.vue'
     <!-- slider -->
 
     <!-- photo gallery -->
-    
+      <CardGallery/>
     <!-- photo gallery -->
 
     <!-- lifestyle and stories -->
-
+      
     <!-- lifestyle and stories -->
 
     <!-- banner -->
