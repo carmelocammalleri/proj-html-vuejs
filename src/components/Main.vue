@@ -3,6 +3,7 @@ import CardSlider from './partials/CardSlider.vue'
 import CardGallery from './partials/CardGallery.vue'
 import LifeStyle from './partials/lifeStyle.vue'
 import FeaturedPosts from './partials/FeaturedPosts.vue'
+import YoutubeSection from './partials/YoutubeSection.vue'
 
   export default{
     name: 'Main',
@@ -10,7 +11,8 @@ import FeaturedPosts from './partials/FeaturedPosts.vue'
       CardSlider,
       CardGallery,
       LifeStyle,
-      FeaturedPosts
+      FeaturedPosts,
+      YoutubeSection
     }
   }
 </script>
@@ -43,7 +45,7 @@ import FeaturedPosts from './partials/FeaturedPosts.vue'
     <!-- feautured post -->
 
     <!-- youtube -->
-      
+      <YoutubeSection/>
     <!-- youtube -->
 
     <!-- elementi e foto -->
