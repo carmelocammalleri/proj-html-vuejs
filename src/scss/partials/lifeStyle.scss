@@ -16,9 +16,18 @@
 
       .foto{
         height: 100px;
-
+        padding: 8px 0;
+        
         &.middle {
-          margin: 8px 0;
+          border-block: 1px solid;
+        }
+
+        .img {
+          height: 100%;
+          display: inline;
+          img{
+            height: 100%;
+          }
         }
       }
     }

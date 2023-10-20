@@ -14,9 +14,26 @@
           foto 1
         </div>
         <div class="listPhotos">
-          <div class="foto card">foto2</div>
-          <div class="foto middle card">foto3</div>
-          <div class="foto card">foto4</div>
+          
+          <div class="foto">
+            <div class="img">
+              <img src="/public/image/healthy-foods.webp" alt="">
+              <span>ciao belli del 93</span>
+            </div>
+          </div>
+          <div class="foto middle">
+            <div class="img">
+              <img src="/public/image/healthy-foods.webp" alt="">
+              <span>ciao belli del 93</span>
+            </div>
+          </div>
+          <div class="foto">
+            <div class="img">
+              <img src="/public/image/healthy-foods.webp" alt="">
+              <span>ciao belli del 93</span>
+            </div>
+          </div>
+
         </div>
       </div>
 
