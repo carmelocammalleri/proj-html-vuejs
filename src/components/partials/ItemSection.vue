@@ -17,8 +17,9 @@ import {cardsList} from '../../data/store'
     <div 
       v-for="card in cardsList"
       :key="card.id"
-      class="card m-1">
-      <img class="card-img-top" :src="`/public/image${card.src}`" :alt="card.src">
+      class="card pippo m-1">
+
+        <img class="card-img-top" :src="`/public/image${card.src}`" :alt="card.src">
      
     </div>
 
@@ -26,6 +27,7 @@ import {cardsList} from '../../data/store'
 
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
+
 
 </style>

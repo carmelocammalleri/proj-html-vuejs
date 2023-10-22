@@ -12,6 +12,10 @@
         list-style: none;
         display: inline-block;
         margin: 0 20px;
+        cursor: pointer;
+        &:hover {
+          color: $primaryColor;
+        }
       }
     }
   }
