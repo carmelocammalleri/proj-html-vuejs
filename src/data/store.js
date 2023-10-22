@@ -67,3 +67,26 @@ export const cardsList= [
     news: 'Jokic is the new PVP game mode'
     }
   ]
+
+  export const photosGallery =[
+    {id: 148,
+    src: '/anime-fashion.webp',
+    minutes: 30,
+    news: 'The war is over. No! it\'s a joke'
+    },
+    {id: 158,
+    hour: 11,
+    minutes: 30,
+    news: 'New update rockstar for gta san andreas'
+    },
+    {id: 168,
+    hour: 12,
+    minutes: 30,
+    news: 'Next Stop Villabate'
+    },
+    {id: 178,
+    hour: 13,
+    minutes: 30,
+    news: 'Jokic is the new PVP game mode'
+    }
+  ]

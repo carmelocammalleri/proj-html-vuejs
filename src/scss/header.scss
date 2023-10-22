@@ -26,19 +26,48 @@ header {
           height: 100%;
         }
       }
+
+      .bord {
+        padding: 5px;
+        border-radius: 50%;
+        background-color: white;
+        color: $primaryColor;
+        cursor: pointer;
+        &:hover {
+          background-color: $elementColor;
+          color: $lightColor;
+        }
+      } 
+      .fa-solid{
+        padding: 5px 8px;
+        border-radius: 50%;
+        cursor: pointer;
+        display: inline-block;
+        &:hover {
+          background-color: $elementColor;
+          color: $primaryColor;
+        }
+      }
     }
   }
 
   .banner {
-    height: 120px;
+    height: 100px;
 
     .containerBanner{
-      width: 100px;
-
-    }
-    .bannerImage {
       width: 100%;
-      border-radius: 10px;
+      #logo{
+        width: 50%;
+      }
+        .bannerImage {
+          height: 100%;
+          
+          img{
+            border-radius: 10px;
+            height: 60px;
+          }
+        }
+
     }
   }
 }

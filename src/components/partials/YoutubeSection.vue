@@ -1,6 +1,13 @@
 <script>
+  import {cardsList} from '../../data/store';
+
   export default{
-    name: 'YoutubeSection'
+    name: 'YoutubeSection',
+    data(){
+      return{
+        cardsList
+      }
+    }
   }
 </script>
 
@@ -8,22 +15,27 @@
   <section class="youtubeSection container">
     <div class="containerDisplay my-5 d-flex">
       <div class="grande">
-        scheletro
+        <img src="/public/image/default.webp" class="w-100" alt="">
       </div>
       <div class="lista">
-        <div>ciao bello fisso</div>
+        <div class="videosPlaylist d-flex align-items-center">
+          <i class="fa-solid fa-play mx-3"></i>
+          <div class="text">
+            <span>Video Playlist</span>
+            <br>
+            <span>Videos</span>
+          </div>
+          
+        </div>
         <div class="scan">
-          <div>scan</div>
-          <div>scan</div>
-          <div>scan</div>
-          <div>scan</div>
-          <div>scan</div>
-          <div>scan</div>
-          <div>scan</div>
-          <div>scan</div>
-          <div>scan</div>
-          <div>scan</div>
-          <div>scan</div>
+          <div v-for="card in cardsList"
+          :key="card.id">
+            <img :src="`/public/image${card.src}`" class="h-100" alt="">
+            <span>Video Playlist</span>
+              <br>
+            <span>Videos</span>
+          </div>
+      
         </div>
       </div>
     </div>

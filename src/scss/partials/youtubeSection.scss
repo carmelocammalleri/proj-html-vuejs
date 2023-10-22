@@ -1,8 +1,11 @@
+@use './variables' as *;
+
 .containerDisplay {
   border: 1px solid black;
-  height: 300px;
+  height: 340px;
   overflow: hidden;
 
+  
   .grande {
     width: 70%;
     border: 1px solid black;
@@ -11,7 +14,11 @@
   .lista {
     width: 30%;
     height: 100%;
-
+    
+    .videosPlaylist {
+      background-color: $elementColor;
+      color: white;
+    }
     .scan{
       overflow: auto;
       height: 100%;
