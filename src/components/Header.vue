@@ -35,10 +35,16 @@
             <i class="fa-solid fa-chevron-right"></i>
           </div>
           <div class="iconeSocial">
-            <i class="fa-brands fa-facebook mx-1 bord"></i>
-            <i class="fa-brands fa-twitter mx-1 bord"></i>
-            <i class="fa-brands fa-instagram mx-1 bord"></i>
-            <i class="fa-brands fa-youtube mx-1 bord"></i> 
+
+              <i class="fa-brands fa-facebook m-1 p-1 bord"></i>
+
+              <i class="fa-brands fa-twitter m-1 p-1 bord"></i>
+
+              <i class="fa-brands fa-instagram m-1 p-1 bord"></i>
+
+              <i class="fa-brands fa-youtube m-1 p-1 bord"></i> 
+
+            
           </div>
         </div>
       </div>
