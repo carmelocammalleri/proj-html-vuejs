@@ -1,10 +1,16 @@
 <script>
-  import NavBar from '../components/partials/NavBar.vue'
+  import NavBar from '../components/partials/NavBar.vue';
+  import {newsList} from '../data/store'
 
   export default {
     name: 'Header',
     components:{
       NavBar 
+    },
+    data(){
+      return {
+        newsList
+      }
     }
   }
 </script>
@@ -19,12 +25,14 @@
             <span class="buttonUpdates">NEWS UPDATES</span>
             <img class="profileImage" src="/image/ProfiloImage.jpg" alt="profilo">
           </div>
-          <span> 05:52 the_</span>
+          <span v-for="news in newsList"
+          :key="news.id"> {{news.hour}}.{{ news.minutes }}: {{ news.news }} </span>
         </div>
   
         <div class="socialHeader d-flex align-items-center">
           <div class="iconeArrow">
-            &leftarrow; &rightarrow;
+            <i class="fa-solid fa-chevron-left"></i>
+            <i class="fa-solid fa-chevron-right"></i>
           </div>
           <div class="iconeSocial">
             icone
