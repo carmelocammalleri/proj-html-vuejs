@@ -58,7 +58,7 @@
           <img id="logo" src="/public/image/anime-logo-300x89.webp" alt="logo-red">
         </div>
         <div class="bannerImage">
-          <img src="/public/image/header-banner-300x38.webp" alt="banner">        
+          <img src="/public/image/header-banner.webp" alt="banner">        
         </div>
         
       </div>
