@@ -16,7 +16,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: red;
 }
 
 a {
@@ -25,7 +25,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: red;
 }
 
 button {
@@ -49,6 +49,24 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: white;
+  background-color: #333333;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  padding: 4px 8px;
+  font-size: 1.5rem !important;
+  height: 28px;
+  width: 40px;
+
+}
+.swiper-button-next:hover::after,
+.swiper-button-prev:hover::after{
+  background-color: #BF1D2E;
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -56,7 +74,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #BF1D2E;
   }
   button {
     background-color: #f9f9f9;
