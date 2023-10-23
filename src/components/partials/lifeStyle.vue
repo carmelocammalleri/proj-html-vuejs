@@ -7,7 +7,12 @@ import {liveStyleElement} from '../../data/store'
       return{
         liveStyleElement
       }
+    },
+    computed : {
+    getArray (){
+      return liveStyleElement.filter( element => element.id != '4' )
     }
+  }
   }
 </script>
 
@@ -20,20 +25,20 @@ import {liveStyleElement} from '../../data/store'
         <div class="card presentationPhotos">
           <div class=" bg-black">
 
-            <img class=" opacity-50" src="/public/image/success-story.webp" alt="success">
+            <img class=" opacity-50" :src="`/public/image${liveStyleElement[3].src}`" alt="success">
           </div>
           <div class="d-inline-block position-relative">
                 <div class="d-inline-block infoLifeStyle position-absolute bottom-50 text-white">
-                  <i class="fa-solid fa-user m-1"></i><span>Demo</span>
-                  <i class="fa-regular fa-calendar-days mx-1"></i><span>December 26, 2022</span> <br>
-                  <span>You Only live once</span>
+                  <i class="fa-solid fa-user m-1"></i><span>{{liveStyleElement[3].user}}</span>
+                  <i class="fa-regular fa-calendar-days mx-1"></i><span>{{liveStyleElement[3].date}}</span> <br>
+                  <span>{{liveStyleElement[3].title}}</span>
                 </div>
               </div>
         </div>
 
         <div class="listPhotos">
           <div
-            v-for="element in liveStyleElement"
+            v-for="element in getArray"
             :key="element.id"
             class="foto">
             <div 

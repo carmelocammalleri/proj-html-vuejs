@@ -179,7 +179,7 @@ export const liveStyleElement= [
     title: 'Nothing Else Metter',
     user: 'Demo',
     date: 'December 26, 2022',
-    btn: 'culture'
+    btn: 'Travel'
   },
   {
     id: 1,
@@ -187,7 +187,7 @@ export const liveStyleElement= [
     title: 'Back in black',
     user: 'Demo',
     date: 'December 26, 2022',
-    btn: 'culture'
+    btn: 'Places'
   },
   {
     id: 2,
@@ -197,6 +197,16 @@ export const liveStyleElement= [
     user: 'Demo',
     date: 'December 26, 2022',
     btn: 'culture'
+  },
+  {
+    id: 4,
+    src: '/success-story.webp',
+    title: 'You Only Live Once',
+    class: 'middle',
+    user: 'Demo',
+    date: 'December 26, 2022',
+    btn: 'culture'
   }
+
 
 ]
