@@ -5,11 +5,24 @@
   export default {
     name: 'Header',
     components:{
-      NavBar 
+      NavBar
     },
     data(){
       return {
         newsList
+      }
+    },
+    methods:{
+      nextNews(){
+        this.newsList[1]
+        console.log('next');
+      },
+      prevNews(){
+        console.log('prev');
+      },
+      mounted(){
+        this.nextNews()
+        this.prevNews()
       }
     }
   }
@@ -25,14 +38,16 @@
             <span class="buttonUpdates">NEWS UPDATES</span>
             <img class="profileImage" src="/image/ProfiloImage.jpg" alt="profilo">
           </div>
-          <!-- <span v-for="news in newsList"
-          :key="news.id"> {{news.hour}}.{{ news.minutes }}: {{ news.news }} </span> -->
+          <div class="m-3">
+            <span>15:00</span> <span>{{ newsList[1].news }}</span> 
+          </div>
+    
         </div>
   
         <div class="socialHeader d-flex align-items-center">
           <div class="iconeArrow mx-5">
-            <i class="fa-solid fa-chevron-left mx-3"></i>
-            <i class="fa-solid fa-chevron-right"></i>
+            <i @click="prevNews()" class="fa-solid fa-chevron-left mx-3"></i>
+            <i @click="nextNews()" class="fa-solid fa-chevron-right"></i>
           </div>
           <div class="iconeSocial">
 

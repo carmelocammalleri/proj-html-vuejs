@@ -1,5 +1,5 @@
 export const cardsList= [
-    {id: 123,
+    {id: 0,
     src: '/healthy-foods.webp',
     title: 'The best healty food',
     date: 'december 2022',
@@ -46,25 +46,29 @@ export const cardsList= [
   ]
 
   export const newsList =[
-    {id: 148,
+    {id: 1,
     hour: 10,
     minutes: 30,
-    news: 'The war is over. No! it\'s a joke'
+    news: 'The war is over. No! it\'s a joke',
+    isActive: true
     },
-    {id: 158,
+    {id: 2,
     hour: 11,
     minutes: 30,
-    news: 'New update rockstar for gta san andreas'
+    news: 'New update rockstar for gta San Andreas',
+    isActive: false
     },
-    {id: 168,
+    {id: 3,
     hour: 12,
     minutes: 30,
-    news: 'Next Stop Villabate'
+    news: 'Next Stop Villabate',
+    isActive: false
     },
-    {id: 178,
+    {id: 4,
     hour: 13,
     minutes: 30,
-    news: 'Jokic is the new PVP game mode'
+    news: 'Jokic is the new PVP game mode',
+    isActive: false
     }
   ]
 

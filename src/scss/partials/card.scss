@@ -10,8 +10,19 @@
 
     .card-img-top{
       width: 100%;
+      position: relative;
     }
+    .btnInfo{
+      background-color: $lightColor;
+      color: $elementColor;
+      border-radius: 5px;
+      position:absolute;
+      padding:0 10px;
+      top: 5px;
+      right: 50%;
+      transform:translate(50%) ;
 
+    }
     .card-body {
       padding: 7px;
       

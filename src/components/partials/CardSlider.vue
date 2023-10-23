@@ -39,6 +39,7 @@ import { Navigation, Mousewheel, Keyboard } from 'swiper/modules';
           :key="card.id">
           <div class="card m-1">
             <img class="card-img-top" :src="`/public/image${card.src}`" :alt="card.src">
+            <span class="btnInfo">{{card.btn}}</span>
             <div class="card-body text-center">
               <h6 class="card-title">{{card.title}}</h6>
               <p class="card-text">{{card.date}}</p>
