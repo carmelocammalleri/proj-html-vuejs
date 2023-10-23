@@ -9,8 +9,26 @@
   .bigView {
     width: 65%;
     border: 1px solid black;
-    img{
+    background-color: black;
+    position: relative;
+    .imageVideo{
       object-fit: contain;
+
+    }
+    .youtubeChannel {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      border-radius: 50%;
+      overflow: hidden;
+      background-color: black;
+
+      img{
+        margin: 0 auto;
+        height: 80%;
+      }
     }
   }
   .sectionVideos {

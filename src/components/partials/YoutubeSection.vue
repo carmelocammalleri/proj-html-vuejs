@@ -27,8 +27,8 @@
       <!-- Visione Grande dell'elemento selezionato su youtube -->
       <div class="bigView">
         <img :src="`/public/image${videoInfo[this.counter].src}`" class="w-100 imageVideo" alt="">
-        <div class="youtubeChannel">
-          <img :src="`/public/image${videoInfo[this.counter].tv}`" alt="">
+        <div class="youtubeChannel d-flex justify-content-center">
+          <img :src="`/public/image/${videoInfo[this.counter].tv}.jpg`" alt="">
         </div>
       </div>
 
