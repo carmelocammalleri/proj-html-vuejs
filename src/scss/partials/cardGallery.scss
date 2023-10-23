@@ -7,16 +7,54 @@
   .middle {
     width: 50%;
     margin: 0px 8px;
-
-    .uno {
+    
+    .single {
       height: 100%;
+      overflow: hidden;
+      position: relative;
+      
+      img {
+        height: 100%;
+      }
+      .btnInfo{
+        position: absolute;
+        top: 10px;
+        right: 50%;
+        transform: translate(50%);
+
+        span{
+          background-color: $lightColor;
+          border-radius: 10px;
+          padding: 2px 10px;
+        }
+      }
     }
   }
   .left {
     width: 25%;
     
-    .due {
+    .double {
+      position: relative;
+      object-fit: container;
       height: 150px;
+      overflow: hidden;
+
+      img {
+        height: 100%;
+      }
+
+      .btnInfo{
+        position: absolute;
+        top: 10px;
+        right: 50%;
+        transform: translate(50%);
+
+        span{
+          background-color: $lightColor;
+          border-radius: 10px;
+          padding: 2px 10px;
+        }
+      }
     }
   }
 }
