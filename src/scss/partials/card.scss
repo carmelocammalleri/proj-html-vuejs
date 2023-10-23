@@ -4,6 +4,22 @@
   background-color: $bgColor;
   padding: 10px 0;
 
+  .titleSection{
+    .fa-solid{
+      background-color: $elementColor;
+      color: $lightColor;
+      text-align: center;
+      line-height: 20px;
+      border-radius: 50%;
+      display: inline-block;
+      height: 20px;
+      width: 20px;
+      &:hover{
+        background-color: $primaryColor;
+      }
+    }
+  }
+
   .card {
     width: 100%;
     background-color: $bgColor;
@@ -35,6 +51,17 @@
         font-size: .7rem;
         margin: 0;
       }
+      .btn-featured {
+        padding: 3px 10px;
+        background-color: $primaryColor;
+        color: $lightColor;
+        border-radius: 20px;
+        &:hover {
+          background-color: $elementColor;
+          color: $lightColor;
+        }
+      }
     }
   }
 }
+

@@ -28,7 +28,15 @@ import { Navigation, Mousewheel, Keyboard } from 'swiper/modules';
 <template>
   <section class="slider bg-white p-3">
     <div class="container">
+
+      <div class="titleSection d-flex justify-content-between">
         <h4>FEATURED POST</h4>
+        <div class="iconeArrow mx-5">
+          <i @click="prevNews()" class="fa-solid fa-chevron-left mx-3"></i>
+          <i @click="nextNews()" class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+
         <div class="cardSection">
 
             <Swiper :slidesPerView="3"
@@ -48,6 +56,7 @@ import { Navigation, Mousewheel, Keyboard } from 'swiper/modules';
                         <h6 class="card-title">{{card.title}}</h6>
                         <p class="card-text">{{card.date}}</p>
                         <p class="card-text">{{ card.description }}</p>
+                        <span class="d-inline-block btn btn-featured my-2">Read More</span>
                     </div>
                   </div>
 

@@ -1,11 +1,11 @@
 <script>
-  import {cardsList} from '../../data/store';
+  import {videoInfo} from '../../data/store';
 
   export default{
     name: 'YoutubeSection',
     data(){
       return{
-        cardsList
+        videoInfo
       }
     }
   }
@@ -35,11 +35,11 @@
         <!-- video non selezionati -->
         <div class="small-view">
           <div 
-          v-for="card in cardsList"
+          v-for="card in videoInfo"
           :key="card.id"
-          class="video d-flex">
+          class="video d-flex align-items-center">
             <img :src="`/public/image${card.src}`" class="h-100 d-block" alt="">
-            <div class="videoTextTitle">Video Playlist-Official Trailer- AniTv</div>
+            <span class="videoTextTitle">{{ card.title }} - {{ card.tv }}</span>
           </div>
         </div>
 

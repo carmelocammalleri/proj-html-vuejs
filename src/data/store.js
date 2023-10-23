@@ -127,5 +127,46 @@ export const cardsList= [
         'Help',
         'Top List',
         'Coding Online'
-      ]},
+      ]}
+]
+
+export const videoInfo= [
+  {id: 0,
+  src: '/default.webp',
+  title: 'Overlord Season 4-Official Trailer',
+  tv: 'AniTv'
+  },
+  {id: 1,
+  src: '/hqdefault (1).jpg',
+  title: 'Overlord Season 4-Official Trailer',
+  tv: 'AniTv'
+  },
+  {id: 2,
+  src: '/maxresdefault-1-1.jpg',
+  title: 'Biginner photographer\'s Mistakes',
+  tv: 'Crunchyroll'
+  },
+  {id: 3,
+  src: '/maxresdefault-12.jpg',
+  title: 'Live Ideas You Might Be Anime',
+  tv: 'Crunchyroll'
+  }
+  ,
+  {id: 4,
+  src: '/maxresdefault.jpg',
+  title: 'The best Way To Explore Yourself',
+  tv: 'Crunchyroll'
+  }
+  ,
+  {id: 5,
+  src: '/maxresdefault23.jpg',
+  title: 'Nothing Else Metter',
+  tv: 'Crunchyroll'
+  },
+  {id: 6,
+  src: '/one-piece.jpg',
+  title: 'Nothing Else Metter',
+  tv: 'Netflix'
+  },
+
 ]
