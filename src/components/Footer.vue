@@ -29,7 +29,7 @@ import {menuItems} from '../data/store.js'
         <div class="inputText d-flex flex-column">
           <h3> inserisci email</h3>
           <input type="text" placeholder="Email">
-          <button class="btn btn-primary my-2" >Subscribe</button>
+          <button class="btn btn-tech my-2" >Subscribe</button>
         </div>
       </div>
 
