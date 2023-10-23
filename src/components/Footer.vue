@@ -1,6 +1,12 @@
 <script>
+import {menuItems} from '../data/store.js'
   export default {
-    name: 'Footer'
+    name: 'Footer',
+    data(){
+      return {
+        menuItems
+      }
+    }
   }
 </script>
 
@@ -10,43 +16,12 @@
 
       <div class="upperFooter d-flex justify-content-between">
         <!-- DA CICLARE -->
-        <div class="cardMenuInfo">
-          <h5 class="titleMenu">ciao</h5>
+        <div class="cardMenuInfo"
+        v-for="(item, index) in menuItems"
+        :key="index">
+          <h5 class="titleMenu">{{item.title}}</h5>
           <ul class="menuInfo">
-            <li>Resource</li>
-            <li>Themes</li>
-            <li>Belli</li>
-            <li>Ciao</li>
-          </ul>
-        </div>
-
-        <div class="cardMenuInfo">
-          <h5 class="titleMenu">ciao</h5>
-          <ul class="menuInfo">
-            <li>Stories</li>
-            <li>Themes</li>
-            <li>Belli</li>
-            <li>Ciao</li>
-          </ul>
-        </div>
-
-        <div class="cardMenuInfo">
-          <h5 class="titleMenu">ciao</h5>
-          <ul class="menuInfo">
-            <li>Stories</li>
-            <li>Themes</li>
-            <li>Belli</li>
-            <li>Ciao</li>
-          </ul>
-        </div>
-
-        <div class="cardMenuInfo">
-          <h5 class="titleMenu">ciao</h5>
-          <ul class="menuInfo">
-            <li>Stories</li>
-            <li>Themes</li>
-            <li>Belli</li>
-            <li>Ciao</li>
+            <li v-for="i in item.element"><a href="#">{{ i }}</a></li>
           </ul>
         </div>
         <!-- /DA CICLARE -->

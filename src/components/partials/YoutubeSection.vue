@@ -15,7 +15,7 @@
   <section class="youtubeSection container">
     <div class="containerDisplay my-5 d-flex">
       <div class="grande">
-        <img src="/public/image/default.webp" class="w-100" alt="">
+        <img src="/public/image/sddefault.webp" class="w-100" alt="">
       </div>
       <div class="lista">
         <div class="videosPlaylist d-flex align-items-center">

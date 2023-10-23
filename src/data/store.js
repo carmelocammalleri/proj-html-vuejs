@@ -94,3 +94,38 @@ export const cardsList= [
     news: 'Jokic is the new PVP game mode'
     }
   ]
+
+  export const menuItems= [{
+    title: 'Get started',
+    element: [
+      'Resource',
+      'Tutorial',
+      'Exemple',
+      'Doc'
+    ]
+    },
+    {
+      title: 'About',
+      element: [
+        'Stories',
+        'Community',
+        'Blog',
+        'Brand Assets'
+      ]},
+    {
+      title: 'Features',
+      element: [
+        'Overview',
+        'Design',
+        'Code',
+        'Collaborate'
+      ]},
+    {
+      title: 'Quick links',
+      element: [
+        'Contacts',
+        'Help',
+        'Top List',
+        'Coding Online'
+      ]},
+]

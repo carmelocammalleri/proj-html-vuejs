@@ -9,7 +9,9 @@
   .grande {
     width: 70%;
     border: 1px solid black;
-    
+    img{
+      object-fit: cover;
+    }
   }
   .lista {
     width: 30%;

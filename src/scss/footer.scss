@@ -17,6 +17,15 @@ footer {
         padding: 0;
         li {
           list-style: none;
+          cursor:pointer;
+          a{
+            text-decoration: none;
+            color: $lightColor;
+            
+            &:hover {
+              color: $elementColor;
+            }
+          }
         }
       }
     }
