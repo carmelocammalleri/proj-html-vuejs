@@ -167,6 +167,34 @@ export const videoInfo= [
   src: '/one-piece.jpg',
   title: 'Nothing Else Metter',
   tv: 'Netflix'
+  }
+]
+
+export const liveStyleElement= [
+  {
+    id: 0,
+    src: '/travel-alone-300x200.webp',
+    title: 'Nothing Else Metter',
+    user: 'Demo',
+    date: 'December 26, 2022',
+    btn: 'culture'
   },
+  {
+    id: 1,
+    src: '/best-places-300x200.webp',
+    title: 'Back in black',
+    user: 'Demo',
+    date: 'December 26, 2022',
+    btn: 'culture'
+  },
+  {
+    id: 2,
+    src: '/visit-france.webp',
+    title: 'StairwayToHeaven',
+    class: 'middle',
+    user: 'Demo',
+    date: 'December 26, 2022',
+    btn: 'culture'
+  }
 
 ]

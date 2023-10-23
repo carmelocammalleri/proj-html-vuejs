@@ -8,6 +8,7 @@
     .presentationPhotos{
       width: 60%;
       margin-right: 8px;
+      overflow: hidden;
     }
 
     .listPhotos {
@@ -21,11 +22,33 @@
           border-block: 1px solid;
         }
 
-        .img {
-          height: 100%;
+        .imgCard {
+          height: 100px;
           display: inline;
-          img{
+          padding: 5px;
+          
+          .imageBtnPosition{
             height: 100%;
+            position: relative;
+
+            img{
+              height: 100%;
+              border-radius: 5px;
+              margin-right: 5px;
+            }
+            .btnPosition{
+              position: absolute;
+              background-color: $lightColor;
+              padding: 2px;
+              top: 10px;
+              left: 10px;
+              border-radius: 8px;
+            }
+          }
+          .infoLifeStyle {
+            span {
+              font-size: .8rem;
+            }
           }
         }
       }
