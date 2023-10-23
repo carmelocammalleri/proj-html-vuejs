@@ -14,29 +14,35 @@
 <template>
   <section class="youtubeSection container">
     <div class="containerDisplay my-5 d-flex">
-      <div class="grande">
+
+      <!-- Visione Grande dell'elemento selezionato su youtube -->
+      <div class="bigView">
         <img src="/public/image/sddefault.webp" class="w-100" alt="">
       </div>
-      <div class="lista">
+
+      <!-- Lista video da guardare -->
+      <div class="sectionVideos">
         <div class="videosPlaylist d-flex align-items-center">
           <i class="fa-solid fa-play mx-3"></i>
+          <!-- Playlist titolo -->
           <div class="text">
             <span>Video Playlist</span>
             <br>
             <span>Videos</span>
           </div>
-          
         </div>
-        <div class="scan">
-          <div v-for="card in cardsList"
-          :key="card.id">
-            <img :src="`/public/image${card.src}`" class="h-100" alt="">
-            <span>Video Playlist</span>
-              <br>
-            <span>Videos</span>
+
+        <!-- video non selezionati -->
+        <div class="small-view">
+          <div 
+          v-for="card in cardsList"
+          :key="card.id"
+          class="video d-flex">
+            <img :src="`/public/image${card.src}`" class="h-100 d-block" alt="">
+            <div class="videoTextTitle">Video Playlist-Official Trailer- AniTv</div>
           </div>
-      
         </div>
+
       </div>
     </div>
   </section>

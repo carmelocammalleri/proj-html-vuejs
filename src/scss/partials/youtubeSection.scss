@@ -6,28 +6,33 @@
   overflow: hidden;
 
   
-  .grande {
-    width: 70%;
+  .bigView {
+    width: 65%;
     border: 1px solid black;
     img{
-      object-fit: cover;
+      object-fit: contain;
     }
   }
-  .lista {
-    width: 30%;
+  .sectionVideos {
+    width: 35%;
     height: 100%;
     
     .videosPlaylist {
       background-color: $elementColor;
       color: white;
+      height: 60px;
     }
-    .scan{
+    .small-view{
       overflow: auto;
-      height: 100%;
+      height: calc(100% - 60px);
 
-        div {
+        .video {
           border: 1px solid black;
-          height: 50px;
+          height: 60px;
+
+          .videoTextTitle{
+            width: 100%;
+          }
         }
     }
   }
