@@ -60,7 +60,6 @@ button:focus-visible {
   font-size: 1.5rem !important;
   height: 28px;
   width: 40px;
-
 }
 .swiper-button-next:hover::after,
 .swiper-button-prev:hover::after{

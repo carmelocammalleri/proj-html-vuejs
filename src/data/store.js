@@ -132,7 +132,7 @@ export const cardsList= [
 
 export const videoInfo= [
   {id: 0,
-  src: '/default.webp',
+  src: '/sddefault.webp',
   title: 'Overlord Season 4-Official Trailer',
   tv: 'AniTv'
   },

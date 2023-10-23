@@ -1,11 +1,20 @@
 <script>
   import {videoInfo} from '../../data/store';
 
+
   export default{
     name: 'YoutubeSection',
     data(){
       return{
-        videoInfo
+        videoInfo,
+        counter:'0'
+      }
+    },
+    methods:{
+      playVideo(index){
+        this.counter = index
+
+        return this.counter
       }
     }
   }
@@ -17,7 +26,10 @@
 
       <!-- Visione Grande dell'elemento selezionato su youtube -->
       <div class="bigView">
-        <img src="/public/image/sddefault.webp" class="w-100" alt="">
+        <img :src="`/public/image${videoInfo[this.counter].src}`" class="w-100 imageVideo" alt="">
+        <div class="youtubeChannel">
+          <img :src="`/public/image${videoInfo[this.counter].tv}`" alt="">
+        </div>
       </div>
 
       <!-- Lista video da guardare -->
@@ -35,9 +47,10 @@
         <!-- video non selezionati -->
         <div class="small-view">
           <div 
-          v-for="card in videoInfo"
+          v-for="(card, index) in videoInfo"
           :key="card.id"
-          class="video d-flex align-items-center">
+          class="video d-flex align-items-center"
+          @click="playVideo(index)">
             <img :src="`/public/image${card.src}`" class="h-100 d-block" alt="">
             <span class="videoTextTitle">{{ card.title }} - {{ card.tv }}</span>
           </div>
