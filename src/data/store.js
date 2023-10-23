@@ -1,3 +1,4 @@
+// Section slider card
 export const cardsList= [
     {id: 0,
     src: '/healthy-foods.webp',
@@ -45,29 +46,30 @@ export const cardsList= [
     }
   ]
 
+
   export const newsList =[
     {id: 1,
     hour: 10,
     minutes: 30,
-    news: 'The war is over. No! it\'s a joke',
+    new: 'The war is over. No! it\'s a joke',
     isActive: true
     },
     {id: 2,
     hour: 11,
     minutes: 30,
-    news: 'New update rockstar for gta San Andreas',
+    new: 'New update rockstar for gta San Andreas',
     isActive: false
     },
     {id: 3,
     hour: 12,
     minutes: 30,
-    news: 'Next Stop Villabate',
+    new: 'Next Stop Villabate',
     isActive: false
     },
     {id: 4,
     hour: 13,
     minutes: 30,
-    news: 'Jokic is the new PVP game mode',
+    new: 'Jokic is the new PVP game mode',
     isActive: false
     }
   ]

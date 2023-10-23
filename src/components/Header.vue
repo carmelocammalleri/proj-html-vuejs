@@ -9,23 +9,31 @@
     },
     data(){
       return {
-        newsList
+        newsList,
+        counter: '0'
       }
     },
     methods:{
       nextNews(){
-        this.newsList[1]
-        console.log('next');
+        this.counter++;
+        if(this.counter === newsList.length){
+          this.counter=0
+        }
+
       },
       prevNews(){
-        console.log('prev');
-      },
+        if(this.counter=== 0){
+          this.counter = newsList.length
+        }
+        this.counter--
+        }
+    },
       mounted(){
         this.nextNews()
         this.prevNews()
       }
-    }
   }
+
 </script>
 
 <template>
@@ -39,7 +47,7 @@
             <img class="profileImage" src="/image/ProfiloImage.jpg" alt="profilo">
           </div>
           <div class="m-3">
-            <span>15:00</span> <span>{{ newsList[1].news }}</span> 
+          <span>{{ newsList[this.counter].new }}</span> 
           </div>
     
         </div>
